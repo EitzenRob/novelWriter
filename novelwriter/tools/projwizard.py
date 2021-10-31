@@ -99,8 +99,8 @@ class ProjWizardIntroPage(QWizardPage):
         self.setTitle(self.tr("Create New Project"))
         self.theText = QLabel(self.tr(
             "Provide at least a working title. The working title should not "
-            "be change beyond this point as it is used by the application for "
-            "generating file names for for instance backups. The other fields "
+            "be changed beyond this point as it is used by the application for "
+            "generating file names; for instance, backups. The other fields "
             "are optional and can be changed at any time in Project Settings."
         ))
         self.theText.setWordWrap(True)
